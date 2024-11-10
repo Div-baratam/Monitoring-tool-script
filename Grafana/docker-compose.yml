@@ -7,8 +7,8 @@ services:
     environment:
       - GF_SMTP_ENABLED=true
       - GF_SMTP_HOST=smtp.gmail.com:587         # Replace with your SMTP server and port
-      - GF_SMTP_USER=divyabaratam510@gmail.com       # Replace with your SMTP username/email
-      - GF_SMTP_PASSWORD=tebeeugkkhsireyu            # Replace with your SMTP password
+      - GF_SMTP_USER=abc123@gmail.com       # Replace with your SMTP username/email
+      - GF_SMTP_PASSWORD=********         # Replace with your SMTP password
       - GF_SMTP_SKIP_VERIFY=true                  # Skip verification (optional)
       - GF_SMTP_FROM_ADDRESS=divyabaratam510@gmail.com
       - GF_SMTP_FROM_NAME=Grafana                 # Customize the from name
